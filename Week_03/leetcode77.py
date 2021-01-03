@@ -2,7 +2,7 @@ class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         # 库函数
         # return list(combinations(range(1, n+1), k))
-        
+
         def dfs(num):
             if len(com) == k:
                 res.append(com[:])
