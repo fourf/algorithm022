@@ -92,14 +92,14 @@
 
    7.2 双向 BFS 代码模板
 
-   ```python
+```python
     def BFS(graph, start, end):
         visited = set()
         front = {start}
         back = {end}
         while front: 
             for node in front:
-        	    visited.add(node)	
+                visited.add(node)	
                 process(node) 		
                 nodes = generate_related_nodes(node) 		
                 new_front.add(nodes)
@@ -108,5 +108,5 @@
                 front, end = end, front	
             # other processing work
              ...
-            ```
+```
 
