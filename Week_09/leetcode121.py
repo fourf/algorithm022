@@ -25,3 +25,4 @@ class Solution:
             dp = max(dp, 0) + prices[i] - prices[i - 1]
             res = max(res, dp)
         return res
+        
